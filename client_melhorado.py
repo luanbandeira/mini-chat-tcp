@@ -54,10 +54,10 @@ def main():
         confirmacao = sock.recv(1024).decode("utf-8")
         print(confirmacao.strip())
         
-        # Agora mostra os comandos
+        # Comandos utilizaveis para usar o chat
         print("\n💡 COMANDOS DISPONÍVEIS:")
         print("  • Digite mensagens normais para enviar a todos")
-        print("  • /dm <usuário> <mensagem>  - Mensagem privada")
+        print("  • /dm <usuário> <mensagem>  - Enviar uma mensagem privada")
         print("  • /who                      - Listar usuários online")
         print("  • /quit                     - Sair do chat")
         print("="*50)
@@ -124,4 +124,5 @@ def main():
         print("🔌 Desconectado")
 
 if __name__ == "__main__":
+
     main()
