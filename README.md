@@ -159,3 +159,11 @@ mini-chat/
 | `/dm` | Mensagem privada | `/dm ana Oi!` |
 | `/who` | Lista usuários online | `/who` |
 | `/quit` | Sai do chat | `/quit` |
+
+---
+
+## 🤝 RESPONSAVEIS PELO PROJETO
+
+- Luan Bandeira
+- Levi Vitor
+- Alexis Prado
